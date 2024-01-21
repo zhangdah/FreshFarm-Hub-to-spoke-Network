@@ -1,0 +1,10 @@
+\ Model FreshFarm_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ R0: x[0] + x[1] + x[2] = 4
+Bounds
+Binaries
+ x[0] x[1] x[2]
+End
